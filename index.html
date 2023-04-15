@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Meeting Notes 4/15</title>
+    <link rel="icon" type="image/x-icon" href="media/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="description" content="Meeting notes from our 4/15 meeting">
+    <meta name="keywords" content="Meeting, CSE110. Lab 2">
+    <meta name="author" content="Brian Ton">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  </head>
+  <body>
+    <header>
+        <h1><span>8-Ball App Planning</span></h1>
+        <h2>April 15, 2023</h2>
+        <hr>
+        <h2>Outline</h2>
+        <nav>
+            <a href="#attendance" target="_top">Attendance</a>
+            <a href="#agenda" target="_top">Agenda</a>
+            <a href="#notes" target="_top">Notes</a>
+            <a href="#survey" target="_top">Survey</a>
+        </nav>
+    </header>
+    <main>
+        <hr>
+        <section id="attendance">
+            <h2>Attendance</h2>
+            <h3>Present</h3>
+            <ul>
+                <li>Brian</li>
+                <li>Timmy</li>
+                <li>Jimmy</li>
+                <li>Kimmy</li>
+            </ul>
+            <h3>Missing</h3>
+            <ul>
+                <li>Joe</li>
+            </ul>
+        </section>
+        <hr>
+        <section id="agenda">
+            <h2>Agenda</h2>
+            <ol>
+                <li>Check-ins</li>
+                <li>Unfinished Business</li>
+                <li>New Business</li>
+                <li>Next Steps</li>
+                <li>Comments & Questions</li>
+            </ol>
+        </section>
+        <hr>
+        <h2>Notes</h2>
+        <section id="notes">
+            <p>This is our notes area.<br><b>Kimmy</b> is taking notes.</p>
+            <section id="check-ins">
+                <h3>Check-Ins</h3>
+                <p>Jimmy says that he's a bit <strong>behind</strong> on his work.</p>
+                <p>Kimmy says that she's a bit <i>ahead</i> on her work.</p>
+            </section>
+            <section id="unfinished-business">
+                <h3>Unfinished Business</h3>
+                <p>We literally don't have any code.</p>    
+            </section>
+            <section id="new-business">
+                <h3>New Business</h3>
+                <p>We are now designing the new look of the app. Here is a diagram of an 8-Ball that we might want to implement in our app.</p>
+                <div>
+                    <img src="media/8balldiagram.jpg" alt="A picture of an 8-Ball" height="300">
+                </div>   
+            </section>
+            <section id="Next steps">
+                <h3>Next Steps</h3>
+                <ul>
+                    <li>Brian will be working on <em>connecting the flux capacitor API up to the frontend</em>.</li>
+                    <li>Timmy will be stealing code from <a href="https://google.com/" target="_blank">our competitor</a></li>
+                </ul>
+            </section>
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <section id="survey">
+            <div>
+                <h2>Survey</h2>
+                <p>Please fill out the meeting survey!</p>
+                <details>
+                    <summary>Will we protect your data?</summary>
+                    Nope! We will sell your data to the absolute lowest bidder.
+                </details>
+            </div>
+            <form>
+                <fieldset>
+                    <legend>How was the meeting today?</legend>
+
+                    <input type="radio" id="quality-amazing" name="quality" value="amazing">
+                    <label for="quality-amazing">Amazing</label><br>
+
+                    <input type="radio" id="quality-good" name="quality" value="good">
+                    <label for="quality-good">Good</label><br>
+
+                    <input type="radio" id="quality-okay" name="quality" value="okay">
+                    <label for="quality-okay">Okay</label><br>
+
+                    <input type="radio" id="quality-bad" name="quality" value="bad">
+                    <label for="quality-bad">Bad</label><br>
+                </fieldset>
+                <fieldset>
+                    <legend>When's your birthday?</legend>
+                    <input type="date" id="birthday-input" name="birthday">
+                </fieldset>
+                <fieldset>
+                    <legend>Check this box if you like cake!</legend>
+                    <input type="checkbox" id="cake-input" name="cake">
+                </fieldset>
+                <fieldset>
+                    <legend>Tell us a fun fact!</legend>
+                    <input type="text" id="fun-fact-input" name="fun-fact" placeholder="Fun fact...">
+                </fieldset>
+                <fieldset>
+                    <legend>Tell us a fun fact!</legend>
+                    <textarea id="comments-area" name="comments" placeholder="Comments..."></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>Who's your favorite employee?</legend>
+                    <input list="employees" id="favorite-employee-input" name="favorite-employee">
+                    <datalist id="employees">
+                        <option value="Brian">
+                        <option value="Brian">
+                        <option value="Brian">
+                        <option value="Brian">
+                    </datalist>
+                </fieldset>
+                <fieldset>
+                    <legend>What's your favorite fast-food restaurant?</legend>
+                    <select id="fast-food-restaurant-input" name="fast-food-restaurant">
+                        <option value="McDonald's">McDonald's</option>
+                        <option value="Burger King">Burger King</option>
+                        <option value="Wendy's">Wendy's</option>
+                        <option value="Subway">Subway</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Submit the form!</legend>
+                    <button>Submit</button>
+                </fieldset>
+            </form>
+        </section>
+    </footer>
+  </body>
+</html>
