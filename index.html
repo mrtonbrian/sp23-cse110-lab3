@@ -8,19 +8,25 @@
     <meta name="keywords" content="Meeting, CSE110. Lab 2">
     <meta name="author" content="Brian Ton">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-  </head>
+    <link rel="stylesheet" href="index.css">  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue">
+</head>
   <body>
     <header>
         <h1><span>8-Ball App Planning</span></h1>
-        <h2>April 15, 2023</h2>
+        <h4>April 15, 2023</h2>
         <hr>
         <h2>Outline</h2>
-        <nav>
-            <a href="#attendance" target="_top">Attendance</a>
-            <a href="#agenda" target="_top">Agenda</a>
-            <a href="#notes" target="_top">Notes</a>
-            <a href="#survey" target="_top">Survey</a>
-        </nav>
+        <div id="navdiv">
+            <nav>
+                <a href="#attendance" target="_top">Attendance</a>
+                <a href="#agenda" target="_top">Agenda</a>
+                <a href="#notes" target="_top">Notes</a>
+                <a href="#survey" target="_top">Survey</a>
+            </nav>
+        </div>
     </header>
     <main>
         <hr>
@@ -65,7 +71,7 @@
             <section id="new-business">
                 <h3>New Business</h3>
                 <p>We are now designing the new look of the app. Here is a diagram of an 8-Ball that we might want to implement in our app.</p>
-                <div>
+                <div class="image">
                     <img src="media/8balldiagram.jpg" alt="A picture of an 8-Ball" height="300">
                 </div>   
             </section>
@@ -99,8 +105,6 @@
                     <summary>Will we protect your survey data?</summary>
                     Nope! We will sell your data to the absolute lowest bidder.
                 </details>
-                <!-- Empty <p> tag just to add spacing -->
-                <p></p>
             </div>
             <form>
                 <fieldset>
@@ -158,6 +162,9 @@
                     <button>Submit</button>
                 </fieldset>
             </form>
+        </section>
+        <section class="hidden">
+            Hidden!
         </section>
     </footer>
   </body>
