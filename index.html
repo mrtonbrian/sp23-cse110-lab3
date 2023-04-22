@@ -31,8 +31,10 @@
 </head>
   <body>
     <header>
-        <h1><span>8-Ball App Planning</span></h1>
-        <h4>April 15, 2023</h2>
+        <div id="headerdiv">
+            <h1><span>8-Ball App Planning</span></h1>
+            <h4>April 15, 2023</h2>    
+        </div>
         <hr>
         <h2>Outline</h2>
         <div id="navdiv">
@@ -126,17 +128,27 @@
                 <fieldset>
                     <legend>How was the meeting today?</legend>
 
-                    <input type="radio" id="quality-amazing" name="quality" value="amazing">
-                    <label for="quality-amazing">Amazing</label><br>
+                    <div style="display: flex; flex-direction: row; align-items: center; align-content: center;">
+                        <div class="radiodiv" id="qual-amazing">
+                            <input type="radio" id="quality-amazing" name="quality" value="amazing">
+                            <label for="quality-amazing">Amazing</label><br>
+                        </div>
 
-                    <input type="radio" id="quality-good" name="quality" value="good">
-                    <label for="quality-good">Good</label><br>
-
-                    <input type="radio" id="quality-okay" name="quality" value="okay">
-                    <label for="quality-okay">Okay</label><br>
-
-                    <input type="radio" id="quality-bad" name="quality" value="bad">
-                    <label for="quality-bad">Bad</label><br>
+                        <div class="radiodiv" id="qual-good">
+                            <input type="radio" id="quality-good" name="quality" value="good">
+                            <label for="quality-good">Good</label><br>
+                        </div>
+                        
+                        <div class="radiodiv" id="qual-okay">
+                            <input type="radio" id="quality-okay" name="quality" value="okay">
+                            <label for="quality-okay">Okay</label><br>    
+                        </div>
+                        
+                        <div class="radiodiv" id="qual-bad">
+                            <input type="radio" id="quality-bad" name="quality" value="bad">
+                            <label for="quality-bad">Bad</label><br>
+                        </div>
+                    </div>
                 </fieldset>
                 <fieldset>
                     <legend>When's your birthday?</legend>
