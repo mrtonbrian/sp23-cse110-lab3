@@ -1,0 +1,103 @@
+/* For the main title section */
+h1, h4 {
+  text-align: center;
+  color: hsl(198, 100%, 29%);
+  text-decoration: underline dotted;
+}
+
+/* Hides an HTML element */
+.hidden {
+  display: none;
+}
+
+
+main {
+  display: block;
+}
+
+.image {
+  padding: 50px;
+  transition: transform 0.4s;
+  width: 10cm;
+  height: 100mm;
+  margin: 0 auto;
+}
+
+
+
+.image:hover {
+  transform: scale(1.25);
+  cursor: pointer;
+}
+
+* {
+  font-family: "Lato Extended", "Lato", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+p {
+    font-family: "Bangers";
+}
+
+details {
+
+}
+
+a {
+    text-align: center;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+details {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+div > nav {
+    border-color: #FF0000;
+    border-style: solid;
+    border-width: .1in;
+    border-radius: 5%;
+    width: 100%;
+}
+
+fieldset > legend {
+    font-family: "Bebas Neue";
+    font-size: x-large;
+}
+
+fieldset {
+    padding: .5rem .5rem .5rem .5rem;
+}
+
+video {
+    max-width: fit-content;
+    min-width: 500px;
+}
+
+@media (max-width: 500px) {
+    body {
+        background-color: yellow;
+    }
+}
+
+#survey {
+    background-color: rgb(10, 10, 10);
+    color: white;
+}
+
+body {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
